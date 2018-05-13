@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{f816cbe9-f4ab-43d3-a014-19d6337034a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\orbit">
+      <UniqueIdentifier>{d9c853fe-6061-455a-8ea1-e1e0081c5978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{bee430d7-387a-4053-8d07-8e14b746c0c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\orbit">
+      <UniqueIdentifier>{4c35077d-83d3-4922-b570-2bf8d571b430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{6259ff5d-4bb3-4d43-a0c8-db4c0578f403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{459ada7b-d9c9-4d49-95ce-7416c3cd2371}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\cEci.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\cJulian.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\coord.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\cSite.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\cTLE.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\cVector.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\globals.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\core\stdafx.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\orbit\cNoradBase.cpp">
+      <Filter>Source Files\orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\orbit\cNoradSDP4.cpp">
+      <Filter>Source Files\orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\orbit\cNoradSGP4.cpp">
+      <Filter>Source Files\orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\orbit\cOrbit.cpp">
+      <Filter>Source Files\orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\orbit\cSatellite.cpp">
+      <Filter>Source Files\orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="orbitTool\orbit\stdafx.cpp">
+      <Filter>Source Files\orbit</Filter>
+    </ClCompile>
+    <ClCompile Include="TLEcontents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANTENNAcontents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="yaString.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGLSimpleAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\cEci.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\cJulian.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\coord.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\coreLib.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\cSite.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\cTLE.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\cVector.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\exceptions.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\globals.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\core\stdafx.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\cNoradBase.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\cNoradSDP4.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\cNoradSGP4.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\cOrbit.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\cSatellite.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\orbitLib.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="orbitTool\orbit\stdafx.h">
+      <Filter>Header Files\orbit</Filter>
+    </ClInclude>
+    <ClInclude Include="TLEcontents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANTENNAcontents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="yaString.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="yaCommon.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
